@@ -17,6 +17,9 @@ h1 {
 .top {
    margin: 0 auto;
 }
+.novo {
+   width: 100%;
+}
 /*第一层级  */
 .service {
    padding: 30px;
@@ -92,19 +95,25 @@ h1 {
    left: 240px;
    display: none;
 }
+.Whole-box2 {
+   position: absolute;
+   top: 270px;
+   left: 240px;
+   display: none;
+}
 
 /*  */
 .Diagnostics {
    padding: 30px;
    display: none;
 }
-
 .Diagnostics div {
    width: 200px;
    height: 100px;
    border: 1px solid #000;
    margin-bottom: 30px;
 }
+
 
 
 /*  */
