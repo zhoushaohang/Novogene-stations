@@ -1,0 +1,215 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+body {
+   background-color: rgba(255, 255, 255, 0.739);
+}
+ul li {
+    list-style: none;
+}
+a {
+   text-decoration: none;
+}
+h1 {
+   text-align: center;
+}
+.top {
+   margin: 0 auto;
+}
+/*第一层级  */
+.service {
+   padding: 30px;
+}
+.service ul {
+   display: flex;
+   justify-content: center;
+}
+.service ul li {
+   width: 300px;
+   height: 100px;
+   border: 1px solid #000;
+   margin-left: 30px;
+}
+/* 第二层级 */
+.Sequencing {
+   padding: 30px;
+   display: none;
+}
+
+.Sequencing div{
+   width: 200px;
+   height: 100px;
+   border: 1px solid #000;
+   margin-bottom: 30px;
+}
+.Sequencing-content {
+   position: absolute;
+   top: 180px;
+   left: 300px;
+   display: none;
+}
+.Sequencing-inde {
+   position: absolute;
+   top: 310px;
+   left: 300px;
+   display: none;
+}
+.Sequencing-mode {
+   position: absolute;
+   top: 440px;
+   left: 300px;
+   display: none;
+}
+.Sequencing-code {
+   position: absolute;
+   top: 570px;
+   left: 300px;
+   display: none;
+}
+.Sequencing-vode {
+   position: absolute;
+   top: 700px;
+   left: 300px;
+   display: none;
+}
+/* 第三层级 */
+.content-cdom1 div {
+   width: 200px;
+   height: 100px;
+   border: 1px solid #000;
+   margin-bottom: 30px;
+}
+.Whole-box {
+   position: absolute;
+   top: 0px;
+   left: 240px;
+   display: none;
+}
+.Whole-box1 {
+   position: absolute;
+   top: 140px;
+   left: 240px;
+   display: none;
+}
+
+/*  */
+.Diagnostics {
+   padding: 30px;
+   display: none;
+}
+
+.Diagnostics div {
+   width: 200px;
+   height: 100px;
+   border: 1px solid #000;
+   margin-bottom: 30px;
+}
+
+
+/*  */
+.Biopharma {
+   padding: 30px;
+   display: none;
+   margin-left: 30px;
+}
+
+.Biopharma div {
+   width: 200px;
+   height: 100px;
+   border: 1px solid #000;
+   margin-bottom: 30px;
+}
+/*  */
+.Support {
+   padding: 30px;
+}
+
+.Support div{
+   width: 200px;
+   height: 100px;
+   border: 1px solid #000;
+   margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+.main{
+   position: absolute;
+   left: 50%;
+   top:10%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   justify-content: center;
+}
+.tab {
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   list-style-type: none;
+   display: flex;
+}
+
+.tab li {
+   float: left;
+   justify-items: center;
+
+}
+
+.tab li a {
+   text-decoration: none;
+   color: #000;
+   background: #ddd;
+   display: inline-block;
+   width: 250px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+}
+
+#content1,
+#content2,
+#content3,
+#content4,
+#content5
+ {
+   display: none;
+   position: absolute;
+   top:40px;
+   padding:10px;
+   box-sizing: border-box;
+}
+
+#content1:target,
+#content2:target,
+#content3:target,
+#content4:target,
+#content5:target
+ {
+   display: block;
+}
+#content1:target ~ .tab li:nth-child(1) a{
+   background:skyblue;
+   color:#fff;
+}
+#content2:target ~ .tab li:nth-child(2) a{
+   background:skyblue;
+   color:#fff;
+}
+#content3:target ~ .tab li:nth-child(3) a{
+   background:skyblue;
+   color:#fff;
+}
+#content4:target ~ .tab li:nth-child(4) a{
+   background:skyblue;
+   color:#fff;
+}
+#content5:target ~ .tab li:nth-child(5) a{
+   background:skyblue;
+   color:#fff;
+}
