@@ -17,21 +17,19 @@ h1 {
 .top {
    margin: 0 auto;
 }
-.novo {
-   width: 100%;
-}
 
 
 img {
    width: 100%;
     border-radius: 5px 5px 0 0;
 }
+h4 {
+font-size: 14px;
+}
 
 
 /*第一层级  */
-.service {
-   padding: 30px;
-}
+
 .service ul {
    display: flex;
    justify-content: center;
@@ -57,93 +55,158 @@ img {
 }
 /* 第二层级 */
 .Sequencing {
-   width: 200px;
-   padding: 30px;
    display: none;
    position: relative;
+   margin: 50px;
 }
 
-.Sequencing div{
-   margin-bottom: 30px;
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.Sequencing .consr{
+   float: left;
+   width: 200px;
+   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
    transition: 0.3s;
    border-radius: 5px;
+   margin: 10px;
+}
+.Sequencing .container {
+   padding: 10px;
+   min-height: 100px;
+
 }
 .Sequencing div:hover {
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.Sequencing .container {
-   padding: 2px 16px;
-}
-.Sequencing-content {
-   position: absolute;
-   top:30px;
-   left: 300px;
-   display: none;
-}
-.Sequencing-inde {
-   position: absolute;
-   top: 200px;
-   left: 300px;
-   display: none;
-}
-.Sequencing-mode {
-   position: absolute;
-   top: 340px;
-   left: 300px;
-   display: none;
-}
-.Sequencing-code {
-   position: absolute;
-   top: 470px;
-   left: 300px;
-   display: none;
-}
-.Sequencing-vode {
-   position: absolute;
-   top: 700px;
-   left: 300px;
-   display: none;
-}
+
 /* 第三层级 */
-
-.Sequencing-content  {
+.three-one {
+   display: none;
+}
+.service-three .three-one .three-one-1 {
    width: 200px;
-   margin-bottom: 30px;
+   float: left;
+   margin: 20px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.Whole-box {
-   position: absolute;
-   top: 0px;
-   left: 240px;
+.service-three .three-one .three-one-2 {
+   padding: 10px;
+}
+
+
+
+/* 测序第三层级 */
+.three-eo {
    display: none;
 }
-.Whole-box1 {
-   position: absolute;
-   top: 140px;
-   left: 240px;
+.three-eo .three-eo-1 {
+   width: 200px;
+   float: left;
+   margin: 20px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.three-eo .three-eo-2 {
+   padding: 10px;
+}
+/* 表观基因 */
+.three-ep {
    display: none;
 }
-.Whole-box2 {
-   position: absolute;
-   top: 270px;
-   left: 240px;
+.three-ep .three-ep-1 {
+   width: 200px;
+   float: left;
+   margin: 20px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.three-ep .three-ep-2 {
+   padding: 10px;
+}
+
+/* 宏基因组测序 */
+.three-me {
    display: none;
+}
+.three-me .three-me-1 {
+   width: 200px;
+   float: left;
+   margin: 20px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.three-me .three-me-2 {
+   padding: 10px;
+}
+/*层级四 */
+.service-four {
+   display: none;
+   float: left;
+   color: #000;
+}
+.service-four .four-two-1 {
+   width: 200px;
+   float: left;
+   margin: 20px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.service-four .four-two-2 {
+   padding: 10px;
+}
+.service-four .four-two-1 img{
+   width: 100%;
+}
+.service-four .four-two-1 h4{
+   font-size: 14px;
+   color: #0000;
+}
+ .service-four .four-two-1 p{
+   font-size: 10px;
 }
 
 /*  */
 .Diagnostics {
    padding: 30px;
    display: none;
+   position: relative;
 }
-.Diagnostics div {
-   width: 200px;
-   height: 100px;
-   border: 1px solid #000;
+.Diagnostics ul {
+   
+   margin-left: 15px;
+}
+.Diagnostics ul li {
+   width: 300px;
+}
+.Diagnostics-tt {
+   display: none;
    margin-bottom: 30px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   border-radius: 5px;
 }
 
-
+.Diagnostics-2 {
+ position: absolute;
+ top: 350px;
+ left: 30px;
+}
+.Diagnostics-3 {
+ position: absolute;
+ top: 350px;
+ left: 280px;
+}
+.Diagnostics-tt .Diagnostics-2-box1 {
+   width: 250px;
+   float: left;
+   margin: 30px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   border-radius: 5px;
+}
+.Diagnostics-2-box1 img {
+   width: 100%;
+   height: 100%;
+}
+.Diagnostics-2-box1 .container {
+   padding: 20px;
+}
 
 /*  */
 .Biopharma {
